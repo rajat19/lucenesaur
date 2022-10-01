@@ -23,3 +23,8 @@ To generate java file from jflex, follow following guidelines-
     ```shell
     jflex src/main/java/io/github/rajat19/analysis/indic/IndicTokenizerImpl.jflex
     ```
+   
+---
+## Open source integration
+
+Using [Gradle test logger plugin](https://github.com/radarsh/gradle-test-logger-plugin) to print the test results beautifully on running `./gradlew test`
