@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'io.github.rajat19'
-version System.getenv('RELEASE_VERSION') ?: release.version
+version System.getenv('RELEASE_VERSION') ?: releaseVersion
 
 repositories {
     mavenCentral()
